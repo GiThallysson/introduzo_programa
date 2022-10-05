@@ -28,19 +28,19 @@ print(f"A distância entre os pontos é {d}")
 
 #3. Elabore um algoritmo que leia o valor de dois números inteiros e a operacão aritimética desejada; calcule, então, a resposta adequada. Utilize os símbolos da tabela a seguir para ler qual operacão
 #aritmética escolhida.
-Símbolo
-+
--
-*
-/ 
-**
+#Símbolo
+#+
+#-
+#*
+#/ 
+#**
 
-Operação aritmética
-Adição
-Subtração
-Multiplicacão
-Divisão
-Potenciação
+#Operação aritmética
+#Adição
+#Subtração
+#Multiplicacão
+#Divisão
+#Potenciação
 
 n1 = int(input('digite um número '))
 n2 = int(input('digite próximo número '))
