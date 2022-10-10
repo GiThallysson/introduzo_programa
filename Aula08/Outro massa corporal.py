@@ -14,8 +14,14 @@ x2 = (-b+d ** 0.5)/(2*a)
 
 print(f"X1: {x1} e x2: {x2}")
 
+# equação
+a = int(input("Digite um valor para A: "))
+b = int(input("Digite um valor para B: "))
+c = int(input("Digite um valor para C: "))
+x = 3
 
-
+x = a * x ** 2 + b * x + c
+print(f"X: {x}")
 
 # 2 -[FORBELLONE, 2022] Construa um algoritmo que, tendo como dados de entrada dois pontos quaisquer do plano, P(x1, y1) e Q(x2, y2), imprima a distância entre eles. A formulá que efetua tal cálculo é: d = (x2 - x1)² + (y2 - y1)²
 
