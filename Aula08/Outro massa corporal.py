@@ -15,9 +15,9 @@ x2 = (-b+d ** 0.5)/(2*a)
 print(f"X1: {x1} e x2: {x2}")
 
 # equação
-a = int(input("Digite um valor para A: "))
-b = int(input("Digite um valor para B: "))
-c = int(input("Digite um valor para C: "))
+a = int(input("Digite o um valor para A: "))
+b = int(input("Digite o um valor para B: "))
+c = int(input("Digite o um valor para C: "))
 x = 3
 
 x = a * x ** 2 + b * x + c
