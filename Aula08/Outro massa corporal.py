@@ -9,8 +9,8 @@ c = int(input("Digite um valor para C: "))
 
 d = (b**2) - (4*a*c) 
 
-x1 = (-b-d)/(2*a) 
-x2 = (-b+d)/(2*a)
+x1 = (-b-d ** 0.5)/(2*a) 
+x2 = (-b+d ** 0.5)/(2*a)
 
 print(f"X1: {x1} e x2: {x2}")
 
