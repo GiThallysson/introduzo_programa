@@ -1,4 +1,4 @@
-from random import randínt
+from random import randint
 
 v1 = []
 v2 = []
