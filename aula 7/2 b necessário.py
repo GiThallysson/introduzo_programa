@@ -4,10 +4,10 @@ que diga se ela poderá ou não votar este ano (não é necessário considerar
 o mês em que a pessoa nasceu).
 '''
 
-ano atual = int(input('Digite o ano atual: '));
-ano nascimento = int(input('Digite o ano de nascimento: '));
+ano = int(input('Digite o ano atual: '));
+nascimento = int(input('Digite o ano de nascimento: '));
 
-idade = ano atual - ano nascimento;
+idade = ano - nascimento;
 
 if idade >= 16:
   print('Você ocorrerá votar no ano');
