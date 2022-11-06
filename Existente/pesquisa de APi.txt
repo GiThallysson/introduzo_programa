@@ -1,0 +1,7 @@
+https://home.openweathermap.org/
+
+https://home.openweathermap.org/dashboard/triggers
+
+https://openweathermap.org/current
+
+https://home.openweathermap.org/api_keys
