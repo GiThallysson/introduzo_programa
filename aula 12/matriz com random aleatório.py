@@ -1,14 +1,21 @@
-import random
+from random import randint
 
-matriz = [[], [], [], [], [], [], [], [], [], []]
+A = []
+B = []
 
-for b in range(0,10):
-    num = random.randint(0, 100)
-    matriz[b].append(num)
-    for c in range(0, 10):
-        matriz[c].append(num)
+for lista in range(10):
+    lista = []
 
-for b in range(0, 10):
-    for c in range(0, 10):
-        print(f'[{matriz[b][c]:^5}]', end='')
-    print()
+    for coluna in range(10):
+        lista.append(randint(0, 100))
+       
+    A.append(lista)
+    B.append(lista)
+    
+for lista_matriz in A:
+    print(lista_matriz)
+    
+print('\n')
+
+for list1 in B:
+        print(list1)
