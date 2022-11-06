@@ -5,3 +5,6 @@ https://home.openweathermap.org/dashboard/triggers
 https://openweathermap.org/current
 
 https://home.openweathermap.org/api_keys
+
+https://www.hashtagtreinamentos.com/previsao-do-tempo-com-python
+https://www.hashtagtreinamentos.com/pip-install-no-python
