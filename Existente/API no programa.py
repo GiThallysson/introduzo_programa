@@ -12,6 +12,8 @@ descrição = requisição_dic['weather'][0]['description']
 temperatura = requisição_dic['main']['temp'] - 273.15
 tor = requisição_dic['coord']['lon']
 ter = requisição_dic['coord']['lat']
+tir = requisição_dic['name']
 
-print(descrição, f"{temperatura}ºC {tor} longitude {ter} latitude")
+print(descrição, f"{tir} {temperatura}ºC {tor} longitude {ter} latitude")
 print(endereço)
+print(requisição.json())
